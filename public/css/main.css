@@ -1,0 +1,283 @@
+/*MAIN STYLES*/
+html, body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+    /*background-color: #C9C9C6;*/
+    background-color: #efefef;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+.clearFix{
+	clear: both;
+}
+.container{	
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.content{
+
+}
+.content h1{
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+	letter-spacing: .1em;
+	color: #333;
+}
+
+
+
+/*HEADERNAV STYLES*/
+.header{
+	padding: 50px 0;
+}
+.headerTitle{
+	display: inline-block;
+}
+.mainTitle{
+	font-family: 'Ubuntu', sans-serif;
+	letter-spacing: .2em;
+	color: rgba(0,0,0,.4);
+}
+.headerNav{
+	float: right;
+	margin-top: 10px;
+}
+nav ul{
+	list-style-type: none;
+}
+nav ul li{
+	display: inline-block;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #666;
+}
+nav ul li a:hover{
+	color: black;
+}
+.navDivider{
+	padding: 0 5px;
+}
+
+
+
+
+/*PRODUCT*/
+.products{
+	margin-top: 100px;
+}
+.product{
+	width: 46%;
+	margin: 45px 2%;
+	float: left;
+}
+.product img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 1px 1px 10px #555;
+}
+/*.product img:hover{
+	box-shadow: 1px 1px 15px;
+}*/
+.product h2{
+	/*text-align: center;*/
+	margin: 10px 0;
+	margin-left: 10%;
+	color: #444;
+}
+.proNameLink{
+	margin-top: 10px;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.product p{
+	margin: 0;
+	display: inline-block;
+	float: left;
+	/*width: 49%;*/
+	margin-top: 5px;
+	color: #444;
+	font-size: .8em;
+}
+.proBtn{
+	display: inline-block;
+	/*width: 49%;*/
+	float: right;
+}
+.proBtn button{
+	float: right;
+	border: 1px solid black;
+	background-color: #EFEFEF;
+	padding: 10px 10px;
+}
+.proBtn button:hover{
+	/*border: 1px solid rgba(0,0,0,.3);*/
+	/*background: #ccc;*/
+	box-shadow: 1px 1px 5px #888;
+}
+.proBtn button a{
+	text-decoration: none;
+}
+.proBtn button:hover a{
+	color: #333;
+}
+/*.product p{
+	margin: 0;
+	margin-left: 10%;
+	color: #333;
+}*/
+
+
+/*CUSTOMER PAGE*/
+.customerH1{
+	text-align: center;
+}
+
+
+
+/*ADMIN PAGE*/
+.adminH1{
+	text-align: center;
+}
+.usersList{
+
+}
+.userRow{
+	border-top: 1px solid black;
+	width: 100%;
+}
+.userRow:last-child{
+	border-bottom: 1px solid black;
+}
+.col{
+	display: inline-block;
+}
+.userRow .id{
+	width: 5%;
+}
+.userRow .name{
+	width: 25%;
+}
+.userRow .email{
+	width: 30%;
+}
+.userRow .role{
+	width: 15%;
+}
+.userRow .updateRole{
+	width: 23%;
+}
+.radios{
+	display: inline-block;
+}
+.radio{
+	display: block;
+}
+.updateInput, .radioLabel{
+	display: inline-block;
+}
+.usersSubmitBtn{
+	float: right;
+}
+
+.orderRow{
+	border-top: 1px solid black;
+	width: 100%;
+}
+.orderRow .id{
+	width: 5%;
+}
+.orderRow .prodId{
+	width: 5%;
+}
+.orderRow .name{
+	width: 10%;
+}
+.orderRow .email{
+	width: 25%;
+}
+.orderRow .address{
+	width: 9%;
+}
+.orderRow .city{
+	width: 9%;
+}
+.orderRow .state{
+	width: 9%;
+}
+.orderRow .zip{
+	width: 9%;
+}
+.orderRow .cardNumber{
+	width: 15%;
+}
+
+
+
+
+
+/*CHECKOUT PAGE*/
+.checkoutPage{
+	width: 100%;
+}
+.checkoutPage h1{
+	text-align: center;
+
+}
+.productDisplay{
+	margin: 50px 2%;
+	width: 46%;
+	float: left;
+}
+.productDisplay img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 1px 1px 10px #555;
+}
+.productInfo{
+	margin-left: 10%;
+}
+.checkoutForm{
+	margin: 50px 2%;	
+	width: 46%;
+	float:left;
+}
+.formGroup{
+	margin: 15px 0;
+}
+.formGroup .checkoutLabel{
+	width: 25%;
+	text-align: right;
+	display: inline-block;
+}
+.formGroup .checkoutInput{
+	width: 73%;
+	display: inline-block;
+}
+.thankMsg{
+	margin: 50px 2%;	
+	width: 46%;
+	float:left;	
+}
+.alert{
+	color: red;
+}
+
+
+/*FOOTER*/
+footer{
+	clear: both;
+	margin: 100px 0;
+}
+footer p{
+	text-align: center;
+	font-size: .7em;
+}
